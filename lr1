@@ -1,0 +1,16 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class HelloWorld {
+    public static void main(String[] args){
+        // Проверяем, передан ли хотя бы один аргумент
+        if (args.length > 0) {
+            System.out.print("Hi, ");
+            System.out.print(args[0]);
+            System.out.println(". How are you?");
+        } else {
+            System.out.println("Hi there. How are you? (No name provided)");
+        }
+    }
+}
